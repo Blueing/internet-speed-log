@@ -4,7 +4,7 @@ import cmd
 import re
 import timestamp
 
-stats = cmd.run('speedtest-cli')
+stats = cmd.run('/usr/local/bin/speedtest-cli')
 
 # Example:
 # Download: 38.87 Mbits/s
